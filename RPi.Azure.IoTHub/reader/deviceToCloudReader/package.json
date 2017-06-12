@@ -1,0 +1,17 @@
+{
+  "name": "azure-iothub-reader",
+  "version": "1.0.0",
+  "description": "docker nodejs azure iot hub device to cloud reader",
+  "main": "readIoTHubMessages.js",
+  "scripts": {
+    "start": "node readIoTHubMessages.js"
+  },
+  "author": "Jorge Castro",
+  "license": "ISC",
+  "dependencies": {
+    "azure-event-hubs": "0.0.8",
+    "azure-iot-device": "^1.1.14",
+    "azure-iot-device-mqtt": "^1.1.14",
+    "azure-iothub": "^1.1.11"    
+  }
+}

@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  azure.iothub.cloudtodevice.api:
+    image: azure.iothub.cloudtodevice.api
+    build:
+      context: ./Azure.IoTHub.CloudToDevice.API
+      dockerfile: Dockerfile

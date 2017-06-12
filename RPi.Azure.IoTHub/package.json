@@ -1,0 +1,16 @@
+{
+  "name": "rpi-nodejs-azure-iothub",
+  "version": "1.0.0",
+  "description": "rpi-nodejs-azure-iothub-device-to-cloud",
+  "author": "Jorge Castro",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "azure-event-hubs": "0.0.8",
+    "azure-iot-device": "^1.1.14",
+    "azure-iot-device-mqtt": "^1.1.14",
+    "azure-iothub": "^1.1.11"    
+  }
+}

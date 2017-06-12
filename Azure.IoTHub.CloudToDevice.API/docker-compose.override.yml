@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  azure.iothub.cloudtodevice.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
